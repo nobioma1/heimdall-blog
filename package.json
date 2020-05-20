@@ -1,0 +1,27 @@
+{
+  "name": "heimdall",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "author": "Noble Obioma",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/redux": "^3.6.0",
+    "@types/styled-components": "^5.1.0",
+    "axios": "^0.19.2",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
