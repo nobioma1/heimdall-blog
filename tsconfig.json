@@ -17,7 +17,6 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "baseUrl": "./src/",
     "skipLibCheck": true
   },
   "include": ["./src/**/*"]
