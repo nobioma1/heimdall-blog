@@ -20,6 +20,13 @@ export const postsReducer = (
         loading: true,
         error: '',
       };
+    case types.ActionTypes.FETCH_POSTS:
+      return {
+        ...state,
+        loading: false,
+        posts: action.payload,
+        offset: action.offset,
+      };
     default:
       return state;
   }
