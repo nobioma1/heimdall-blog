@@ -33,6 +33,12 @@ export const postsReducer = (
         loading: false,
         post: action.payload,
       };
+    case types.ActionTypes.FETCH_ERROR:
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+      };
     default:
       return state;
   }
