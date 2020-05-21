@@ -27,6 +27,12 @@ export const postsReducer = (
         posts: action.payload,
         offset: action.offset,
       };
+    case types.ActionTypes.FETCH_POST:
+      return {
+        ...state,
+        loading: false,
+        post: action.payload,
+      };
     default:
       return state;
   }
