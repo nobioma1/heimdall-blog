@@ -5,7 +5,8 @@
   "author": "Noble Obioma",
   "license": "MIT",
   "scripts": {
-    "start": "parcel public/index.html"
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html --out-dir build"
   },
   "dependencies": {
     "@types/react-dom": "^16.9.8",
