@@ -13,6 +13,13 @@ export const postsReducer = (
   action: types.PostActions
 ): types.PostsState => {
   switch (action.type) {
+    case types.ActionTypes.FETCH_START:
+      return {
+        ...state,
+        post: null,
+        loading: true,
+        error: '',
+      };
     default:
       return state;
   }
