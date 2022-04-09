@@ -15,7 +15,7 @@
     "@types/redux": "^3.6.0",
     "@types/styled-components": "^5.1.0",
     "axios": "^0.19.2",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
